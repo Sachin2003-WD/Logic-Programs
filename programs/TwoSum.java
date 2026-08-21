@@ -23,6 +23,6 @@ public class TwoSum{
 
         int[] result = twoSum(nums,target);
 
-        System.out.println("Indexs: ["+result[0]+", "+result[1]+"]");
+        System.out.println("Index: ["+result[0]+", "+result[1]+"]");
     }
 }
