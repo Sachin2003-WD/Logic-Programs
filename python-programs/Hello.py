@@ -1,30 +1,24 @@
-# # print("Hello World !")
+# a = "SACHINISADEVELOPER"
 
-# # a  = "Hello This is Sachin !" \
-# # "i Will be the next developer"
-# # print(a)
-# # print(a[3]);
-# # print(a[0]);
+# print(a[0:6])
+# print(a[:3])
 
-# a = "IWILLTHENEXTDEVELOPER";
-# # for String in a:
-#     # print(String)
-# print(a)
+# tup = (1,2,4,8,5,6)
+# sets = {1,2,3,4,5,6}
+# lists = [1,2,3,4,5,6]
+# print(tup)
+# print(sets)
+# print(lists)
 
-# print(len(a))
+# s = [3,4]
+# print(tup.append([7,8]))
 
-# # print(a[3])
-# # print(a[-1])  
-# # print(a[1:5])
-# # print(a[2:13])
+students = {
+    "name":"Sachin",
+    'age':22,
+    "city":"Bengaluru"
+}
 
-# a = "  IWILLTHENEXTDEVELOPER  ";    
-# s = "Python is Fun"
-# print(a.strip())
-# print(a.upper())
-# print(f"This is "{a.lower()} )
-# print(s.replace("Fun","Awesome"))
-
-name = "Jake"
-age = 22
-print(f"Name: {name}, Age: {age}")
+print(students)
+print(students.get("name"))
+print(students.values())
