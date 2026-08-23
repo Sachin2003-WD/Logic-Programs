@@ -3,4 +3,4 @@ a = int(input("Enter the Number : "))
 if a % 2 == 0:
     print(f"The {a} is a Even");
 else:
-    print(f"The {a} is Odd")
+    print(f"The {a} is Odd");
